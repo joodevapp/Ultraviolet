@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오늘 자외선 개인정보 처리방침</title>
+<style>
+  :root { --text:#15181D; --sub:#5A6270; --line:#E3E6EA; --bg:#FFFFFF; --accent:#E8740C; --box:#F6F7F9; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+         line-height:1.7; font-size:16px; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  .meta { color:var(--sub); font-size:14px; margin-bottom:28px; }
+  h2 { font-size:18px; margin:36px 0 10px; padding-top:20px; border-top:1px solid var(--line); }
+  p { margin:8px 0; }
+  ul { margin:8px 0; padding-left:20px; }
+  li { margin:4px 0; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:14px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--box); font-weight:600; }
+  .note { background:var(--box); border-radius:10px; padding:12px 14px; font-size:14px; color:var(--sub); }
+  a { color:var(--accent); }
+  footer { margin-top:40px; color:var(--sub); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>개인정보 처리방침</h1>
+<div class="meta">오늘 자외선 (자외선 지수 - 우리동네 UV 알림) · 시행일 2026-10-20</div>
+
+<p>joodevapp(이하 "개발자")는 「개인정보 보호법」 등 관련 법령을 준수하며, "오늘 자외선" 앱(이하 "앱") 이용자의 개인정보를 보호하기 위해 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
+<p class="note">이 앱은 회원가입이나 로그인이 없으며, 이름·이메일·전화번호 등 개인을 직접 식별할 수 있는 정보를 수집하지 않습니다.</p>
+
+<h2>1. 처리하는 정보의 항목과 목적</h2>
+<table>
+  <tr><th>항목</th><th>처리 목적</th><th>저장 위치</th></tr>
+  <tr><td>기기 위치 (GPS)</td><td>현재 위치의 동네(행정구역)를 찾기 위해 사용합니다. 정확한 좌표는 기기 안에서만 사용하며 서버로 전송하지 않습니다.</td><td>기기 (전송 안 함)</td></tr>
+  <tr><td>지역 코드 (동네 단위)</td><td>해당 지역의 자외선 지수 예보를 불러오고, 아침 알림을 보내기 위해 사용합니다.</td><td>기기, 서버(알림 사용 시)</td></tr>
+  <tr><td>저장한 지역 목록, 지역 별칭</td><td>여러 지역의 자외선 정보를 보여주기 위해 사용합니다.</td><td>기기</td></tr>
+  <tr><td>피부타입 테스트 결과</td><td>피부타입 기준 노출 시간을 계산하기 위해 사용합니다.</td><td>기기</td></tr>
+  <tr><td>알림 설정 (시간, 기준 단계)</td><td>설정한 시간과 조건에 맞춰 알림을 보내기 위해 사용합니다.</td><td>기기, 서버(알림 사용 시)</td></tr>
+  <tr><td>푸시 알림 토큰</td><td>알림을 보낼 기기를 구분하기 위해 사용합니다.</td><td>서버(알림 사용 시)</td></tr>
+  <tr><td>광고 식별자, 기기·사용 정보, 대략적인 위치(IP 기반), 오류·성능 정보</td><td>광고 제공 및 광고 성과 측정, 앱 안정성 개선을 위해 아래 외부 서비스가 수집합니다.</td><td>외부 서비스</td></tr>
+</table>
+
+<h2>2. 외부 서비스 (개인정보 처리 위탁 및 국외 이전)</h2>
+<p>앱은 아래 외부 서비스를 사용하며, 각 서비스는 자체 개인정보 처리방침에 따라 정보를 처리합니다. 해당 서비스는 국외(미국 등)의 서버에서 정보를 처리할 수 있습니다.</p>
+<ul>
+  <li><b>Google AdMob</b> (Google LLC): 광고 제공 및 측정 — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">개인정보처리방침</a></li>
+  <li><b>Google Firebase</b> (Google LLC): 자외선 정보 저장·제공, 푸시 알림 발송, 앱 오류·사용 분석 — <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">개인정보 및 보안</a></li>
+</ul>
+<p>자외선 지수와 날씨 정보는 기상청 공공데이터를 사용하며, 이 과정에서 이용자의 정보는 기상청으로 전송되지 않습니다.</p>
+<p>개발자는 위 목적 외에 이용자의 정보를 제3자에게 판매하거나 제공하지 않습니다.</p>
+
+<h2>3. 보유 및 이용 기간</h2>
+<ul>
+  <li>기기에 저장된 정보(지역 목록, 피부타입, 알림 설정)는 앱을 삭제하면 함께 삭제됩니다.</li>
+  <li>서버에 저장된 알림 정보(푸시 알림 토큰, 지역 코드, 알림 설정)는 알림을 끄거나 앱을 삭제해 토큰이 만료되면 삭제됩니다.</li>
+  <li>외부 서비스가 수집한 정보는 각 서비스의 정책에 따라 보관됩니다.</li>
+</ul>
+
+<h2>4. 파기 절차 및 방법</h2>
+<p>보유 기간이 끝나거나 처리 목적이 달성된 정보는 지체 없이 복구할 수 없는 방법으로 삭제합니다.</p>
+
+<h2>5. 이용자의 권리와 행사 방법</h2>
+<ul>
+  <li><b>위치 정보</b>: 기기 설정에서 위치 권한을 언제든 끌 수 있습니다. 끄더라도 지역을 직접 선택해 앱을 이용할 수 있습니다.</li>
+  <li><b>알림</b>: 앱의 알림 설정 또는 기기 설정에서 끌 수 있습니다.</li>
+  <li><b>맞춤형 광고</b>: iOS는 설정 &gt; 개인정보 보호 및 보안 &gt; 추적에서, Android는 설정 &gt; Google &gt; 광고에서 광고 ID 사용을 제한하거나 재설정할 수 있습니다.</li>
+  <li>그 밖에 정보의 열람·정정·삭제·처리 정지를 원하시면 아래 연락처로 요청해 주세요.</li>
+</ul>
+
+<h2>6. 아동의 개인정보</h2>
+<p>이 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 알면서 수집하지 않습니다. 만 14세 미만 아동의 정보가 수집된 사실을 알게 되면 즉시 삭제합니다.</p>
+
+<h2>7. 안전성 확보 조치</h2>
+<p>서버에 저장되는 정보는 접근 권한을 제한하고, 전송 구간을 암호화(HTTPS)하여 보호합니다.</p>
+
+<h2>8. 개인정보 보호책임자 및 문의</h2>
+<ul>
+  <li>개인정보 보호책임자: joodevapp (개발자)</li>
+  <li>이메일: <a href="mailto:joo.dev.app@gmail.com">joo.dev.app@gmail.com</a></li>
+</ul>
+<p>개인정보 침해에 대한 신고나 상담이 필요하면 개인정보침해신고센터(privacy.kisa.or.kr, 국번없이 118), 개인정보분쟁조정위원회(www.kopico.go.kr, 1833-6972)에 문의할 수 있습니다.</p>
+
+<h2>9. 처리방침의 변경</h2>
+<p>이 처리방침이 변경되면 이 페이지를 통해 공지하며, 변경된 내용은 시행일부터 적용됩니다.</p>
+<ul>
+  <li>시행일: 2026-10-20</li>
+</ul>
+
+<footer>© 2026 joodevapp</footer>
+</main>
+</body>
+</html>
